@@ -23,3 +23,14 @@ xattr -cr "/Applications/Glory Optimizer.app"
 The app updates itself. When a new version is ready you'll see a **Restart** button.
 After an update, give Full Disk Access again: in **System Settings › Privacy & Security › Full
 Disk Access**, select Glory Optimizer, remove it with **−**, then add it back with **+**.
+
+## Privacy
+
+Glory Optimizer doesn't collect, upload or share your files or any personal data. Scans, history
+and settings stay on your Mac. The only network request is the update check to GitHub.
+
+## Terms
+
+© 2026 Svetoslav Halachev. All rights reserved. Free to install and use; provided as is, without
+warranty. Please don't redistribute it. Full terms: [LICENSE](LICENSE). Open-source components
+and their licenses are listed in the app under **Settings › About › Open-source licenses**.
