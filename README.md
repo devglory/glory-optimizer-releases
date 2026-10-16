@@ -1,2 +1,24 @@
-# glory-optimizer-releases
-Downloads and automatic updates for Glory Optimizer (macOS)
+# Glory Optimizer
+
+See where your disk space went and clean it up safely. macOS 13+, Apple Silicon (M1 or newer).
+
+This repository only hosts downloads and automatic updates.
+
+## Install
+
+1. Download the `.dmg` from the [latest release](https://github.com/devglory/glory-optimizer-releases/releases/latest).
+2. Open it and drag **Glory Optimizer** into **Applications**.
+3. Open it. macOS will say it can't verify the developer: click **Done**, then go to
+   **System Settings › Privacy & Security**, scroll down and click **Open Anyway**.
+4. Follow the yellow banner in the app to turn on **Full Disk Access**, then reopen the app.
+
+If macOS says the app "is damaged", run this once in Terminal and open it again:
+
+```bash
+xattr -cr "/Applications/Glory Optimizer.app"
+```
+
+## Updates
+
+The app updates itself. When a new version is ready you'll see a **Restart** button.
+After an update, switch Full Disk Access off and on again for Glory Optimizer in System Settings.
