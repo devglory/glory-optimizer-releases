@@ -21,4 +21,5 @@ xattr -cr "/Applications/Glory Optimizer.app"
 ## Updates
 
 The app updates itself. When a new version is ready you'll see a **Restart** button.
-After an update, switch Full Disk Access off and on again for Glory Optimizer in System Settings.
+After an update, give Full Disk Access again: in **System Settings › Privacy & Security › Full
+Disk Access**, select Glory Optimizer, remove it with **−**, then add it back with **+**.
